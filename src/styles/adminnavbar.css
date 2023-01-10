@@ -1,0 +1,30 @@
+.adminnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: midnightblue;
+}
+
+.rightlink li{
+    display: inline-block;
+    padding-right: 20px;
+    align-items: center;
+}
+.rightlink a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    
+}
+.rightlink a:hover{
+    color: orange;
+}
+.leftlink h1{
+    padding-left: 50px;
+    font-size: 30px;
+    color: white;
+    transition: .5s;
+}
+.leftlink h1:hover{
+    color: orange;
+}

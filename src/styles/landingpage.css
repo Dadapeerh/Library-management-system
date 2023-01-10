@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+}
+.landingpage{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eBstEy_IK21eUJzFcf5BKwHaE7%26pid%3DApi%26h%3D160&f=1&ipt=9964f6885d456203ee4105c829ff3c4b05bc8b5ba347be30b65440cb5675df14&ipo=images');
+    /* background-size: cover; */
+    height: 60vh;
+    margin: 0px;
+    padding:150px 100px;
+}
+.selectLogin{
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    padding: 50px 0px;
+    background-color: beige;
+}
+.choice{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0px;
+    
+}
+.choice button.b1{
+    border: 2px solid orange;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    /* box-shadow: 0 0 10px orange,0 0 20px orange; */
+    transition: 0.9s;
+}
+.choice button.b1:hover{
+    box-shadow: 0 0 10px orange,0 0 20px orange;
+}
+.choice button.b2{
+    border: 2px solid green;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;  
+    transition: 0.9s;
+}
+.choice button.b2:hover{
+    box-shadow: 0 0 10px green,0 0 20px green;
+}
+.admin{
+    text-decoration: none;
+    color: orange;
+    
+}
+.user{
+    text-decoration: none;
+    color: green;
+}
+.logo_image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    margin-top: 70px;
+}
+.logo_image img{
+    height: 100px;
+    width: 100px;
+    
+}

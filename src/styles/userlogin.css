@@ -1,0 +1,51 @@
+.userlogin{
+    margin: 0px;
+    height: 60vh;
+    background-size: cover;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fak.picdn.net%2Fshutterstock%2Fvideos%2F20376337%2Fthumb%2F1.jpg&f=1&nofb=1&ipt=9eb44769cd6c77f18fcf9fd28a8e093258247e5427ebf4abcdcde1509124c277&ipo=images");
+    padding:150px 100px;
+}
+.form{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    padding: 50px 0px;
+    background-color: white;
+    border-radius: 30px;
+}
+.form img{
+    height: 50px;
+    width: 50px;
+}
+.form h1{
+    margin: 10px 0px;
+}
+
+/* .form input{ */
+    /* border: none; */
+    /* padding: 8px 30px 8px 0px ;
+    margin: 10px 0px; */
+    /* border-top: none;
+    border-right: none; */
+    /* border: 1px solid black;
+    border-radius: 5px; */  
+/* } */
+.form_input input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;  
+}
+.login_btn1{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: green;
+}
+.login_btn1:hover{
+    box-shadow: 0 0 10px green,0 0 20px green;
+}

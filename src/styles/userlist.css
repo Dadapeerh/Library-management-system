@@ -1,0 +1,31 @@
+.user_card{
+    display: inline-table;
+    text-align: start;
+    margin: 20px 15px;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+.userlist{
+    background-color: rgb(238, 238, 241);
+    margin-top: 0px;
+}
+.userlist h1{
+    background-color: midnightblue;
+    color: white;
+    margin-top: 5px;
+}
+.userbtn{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    color: red;
+    margin-left: 68px;
+}
+.userbtn:hover{
+    background-color: red;
+    color: white;
+}
