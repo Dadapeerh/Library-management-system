@@ -1,0 +1,39 @@
+.adduser_form{
+    margin: 0px;
+    text-align: start;
+    /* padding: 0px 100%; */
+}
+/* .title{
+    padding-right: 100%;
+} */
+.adduser{
+    background-color: rgb(238, 238, 241);
+}
+.adduser h1{
+    color: white;
+    background-color: midnightblue;
+    margin-top: 5px;
+}
+.adduser_form input{
+    padding: 10px 88% 10px 5px;
+    margin: 5px 0px 5px 7px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+.adduser_btn{
+    margin-left: 50%;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+.adduser_btn:hover{
+    background-color: green;
+    color: white;
+}

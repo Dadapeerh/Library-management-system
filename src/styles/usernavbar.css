@@ -1,0 +1,29 @@
+.usernavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: midnightblue;
+}
+.user_rightlink li{
+    display: inline-block;
+    padding-right: 20px;
+    align-items: center;
+}
+.user_rightlink a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    
+}
+.user_rightlink a:hover{
+    color: green;
+}
+.user_leftlink h1{
+    padding-left: 50px;
+    font-size: 30px;
+    color: white;
+    transition: .5s;
+}
+.user_leftlink h1:hover{
+    color: green;
+}
